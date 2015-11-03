@@ -143,6 +143,12 @@ a:hover {
 	margin: 20px auto;
 }
 
+.sponsor {
+	/*background-image: url('media/sponsorship.png');*/
+	height: 300px;
+	overflow: hidden;
+}
+
 blockquote.twitter-tweet {
   display: inline-block;
   padding: 16px;
