@@ -1,0 +1,169 @@
+/* Global Changes */
+
+body {
+	height: 5000px;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a:active, a:visited, a {
+	color: #F3FFE2;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #EB7F00;
+	text-decoration: none;
+}
+
+@font-face {
+
+}
+
+.upperMenu {
+	background-color: #3B3D3B;
+	text-align: right;
+	border-bottom: 1px solid black;
+	width: 100%;
+}
+
+.upperMenu ul {
+	list-style: none;
+}
+
+.upperMenu li {
+	display: inline-block;
+	font-family: sans-serif;
+	font-weight: lighter;
+	font-size: .75em;
+	padding: 0 10px;
+}
+
+
+.banner {
+	width: 100%;
+	height: 40em;
+	/*background-image: url(media/dark_tint.png), url(media/district.jpg);
+	background-position: center center;
+	background-image: cover;*/
+	color: #F3FFE2;
+	overflow: hidden;
+}
+
+.top {
+	/*position: relative;*/
+	margin-top: 10px;
+}
+
+.left {
+	padding: 0 2em;
+}
+
+.left h4 {
+	font-size: 2em;
+}
+
+.left a {
+	color: #F3FFE2;
+}
+
+.right {
+	padding: 0 2em;
+	text-align: right;
+}
+
+.right ul {
+	list-style: none;
+	margin-top: 10px;
+}
+
+.right li {
+	display: inline;
+	font-size: 1.25em;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.mainTitle {
+	text-align: center;
+	width: 100%;
+	font-size: 2em;
+	position: absolute;
+	top: 45%;
+	color: #F3FFE2;
+	transform: translateY(-50%);
+	/*height: 100%;
+	vertical-align: middle;*/
+	/*margin: 35% 0 25% 0;*/
+}
+
+.mainTitle span {
+	color: #EB7F00;
+}
+
+#wrapper {
+	background-color: gray;
+	width: 80%;
+	height: 20em;
+	margin: 10px 40px 30px 10px;
+}
+
+.firstRow {
+	margin-top: 2em;
+	text-align: center;
+}
+
+.pageTitle {
+	text-align: center;
+}
+
+.picbox {
+	display: inline-block;
+	width: 18%;
+	opacity: .5;
+	margin-bottom: 30px;
+
+}
+
+.picbox img {
+	padding: 10px 20px;
+}
+
+.socialFeed {
+	height: 300px;
+}
+
+.divider {
+	background-color: gray;
+	height: 3px;
+	width: 60%;
+	margin: 20px auto;
+}
+
+blockquote.twitter-tweet {
+  display: inline-block;
+  padding: 16px;
+  margin: 10px 0;
+  max-width: 468px;
+  border: #ddd 1px solid;
+  border-top-color: #eee;
+  border-bottom-color: #bbb;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+  font: bold 14px/18px Helvetica, Arial, sans-serif;
+  color: #000;
+}
+ 
+blockquote.twitter-tweet p {
+  font: normal 18px/24px Georgia, "Times New Roman", Palatino, serif;
+  margin: 0 5px 10px 0;
+}
+ 
+blockquote.twitter-tweet a[href^="https://twitter.com"] {
+  font-weight: normal;
+  color: #666;
+  font-size: 12px;
+}
